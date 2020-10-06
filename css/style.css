@@ -43,6 +43,27 @@ html{
 #section2 .background{
   background-color: #72b89f;
 }
+.box{
+  color: white;
+}
+.box-top{
+  text-align: center;
+  margin-top: 20px;
+}
+.box-top img{
+  height:200px;
+}
+#section2 {
+  color: white;
+}
+hr{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-bottom ul li{
+  display: inline-block;
+}
 #section3{
   background-color: white;
 }
