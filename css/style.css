@@ -4,6 +4,16 @@ html{
 .h-100{
   height: 100px;
 }
+.linea{
+  height: 10px;
+  margin-bottom: 20px;
+}
+.l-sinistra, .l-destra{
+display: inline-block;
+height: 5px;
+width: 25%;
+}
+
 /*HEADER*/
 /*HEADER START*/
 #section1{
@@ -34,6 +44,10 @@ html{
   line-height: 100px;
   margin: 0;
 }
+#section2 .l-sinistra, #section2 .l-destra{
+  background-color: white;
+
+}
 .box{
   color: white;
 }
@@ -44,15 +58,23 @@ html{
 .box-top img{
   height:200px;
 }
+.box-bottom{
+  margin-top: 20px;
+}
 #section2{
   background-color: #72b89f;
   color: white;
 }
+#section3 .l-sinistra, #section3 .l-destra{
+  background-color: black;
+}
+/*
 hr{
   width: 20%;
   display: inline-block;
   vertical-align: middle;
 }
+*/
 .box-bottom ul li{
   display: inline-block;
 }
@@ -60,9 +82,7 @@ hr{
   background-color: white;
   color: black;
 }
-#section3 hr{
-  border-color: black;
-}
+
 #section3 h1{
   line-height: 100px;
 }
@@ -77,6 +97,9 @@ width: 100%;
   margin-top: 30px;
   color: white;
 }
+#section4 .l-sinistra, #section4 .l-destra{
+  background-color: white;
+}
 #section4 .btn{
   color: white;
   background-color: #72b89f;
@@ -87,8 +110,8 @@ width: 100%;
 #section5{
   color: black;
 }
-#section5 hr{
-  border-color: black;
+#section5 .l-sinistra, #section5 .l-destra{
+  background-color: black;
 }
 #section5 input{
   border-left: none;
@@ -115,7 +138,7 @@ width: 100%;
   display: inline-block;
 }
 .green{
-  color: green;
+  color: lightgreen;
 }
 .h-600{
   height: 600px;
