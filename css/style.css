@@ -12,6 +12,9 @@ html{
 }
 /*HEADER*/
 /*HEADER START*/
+#section1{
+  background-color: #1c2980;
+}
 #section1 h1{
   color: white;
 }
@@ -37,12 +40,6 @@ html{
   line-height: 100px;
   margin: 0;
 }
-#section1 .background{
-  background-color: #1c2980;
-}
-#section2 .background{
-  background-color: #72b89f;
-}
 .box{
   color: white;
 }
@@ -53,7 +50,8 @@ html{
 .box-top img{
   height:200px;
 }
-#section2 {
+#section2{
+  background-color: #72b89f;
   color: white;
 }
 hr{
@@ -66,9 +64,31 @@ hr{
 }
 #section3{
   background-color: white;
+  color: black;
+}
+#section3 hr{
+  border-color: black;
+}
+#section3 h1{
+  line-height: 100px;
+}
+#section3 img{
+width: 100%;
+}
+#section3 [class*="col-"]{
+  margin-top: 15px;
 }
 #section4{
   background-color: #72b89f;
+  margin-top: 30px;
+  color: white;
+}
+#section4 .btn{
+  color: white;
+  background-color: #72b89f;
+  border-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .footer .top{
   background-color:#28489c;
